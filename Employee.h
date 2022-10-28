@@ -16,8 +16,8 @@ public:
   void set_payRate(int payRate);
   float get_energyLevel();
   void set_energyLevel(int energyLevel);
-  virtual void work(int mins);
-  virtual float pay();
+//  virtual void work(int mins);
+//  virtual float pay();
 };
 
 #endif

@@ -33,3 +33,6 @@ float Employee::get_energyLevel(){
 void Employee::set_energyLevel(int energyLevel){
   m_energyLevel = energyLevel;
 }
+
+//virtual void work(int mins);
+//virtual float pay();
