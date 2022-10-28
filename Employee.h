@@ -7,7 +7,7 @@
 class Employee{
 private:
   int m_pay;
-  int m_energyLevel;
+  int energyLevel;
 public:
   Employee();
   Employee(int payRate);
@@ -15,7 +15,7 @@ public:
   int get_payRate();
   void set_payRate(int payRate);
   float get_energyLevel();
-  void set_energyLevel(int energyLevel);
+  void set_energyLevel(int energyLev);
   virtual void work(int mins) = 0;
   virtual float pay() = 0;
 };
